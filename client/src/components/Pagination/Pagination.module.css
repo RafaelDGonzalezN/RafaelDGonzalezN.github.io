@@ -1,0 +1,41 @@
+.navP {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0; 
+  width: 100%;
+  z-index: 1000; 
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 3px; 
+}
+
+button {
+  padding: 10px 20px; 
+  background-color: #00539C; 
+  color: white; 
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px white;
+
+}
+
+button:hover {
+  background-color: #003366;
+}
+button.active {
+  background-color: white;
+  font-weight: bold;
+  color: #007bff;
+  border: 2px solid skyblue;
+  box-shadow: 0px 0px 5px #003366;
+
+}

@@ -1,0 +1,54 @@
+
+.home{
+  background-color:#003366 ;
+
+}
+
+.filtros {
+  display: flex;
+  position: relative;
+  top: 83px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 15px; 
+  background-color:aliceblue;
+}
+
+.filtros select {
+    margin: 25px;
+    border-radius: 10px;
+    background-color: #00539C;
+    color: white;
+    padding:10px;
+    cursor: pointer; 
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .filtros select:hover {
+    background-color: #003366;
+  }
+
+.cartaCon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 50px;
+  padding: 60px 80px; 
+    
+}
+.logo {
+  padding: 10px;
+  cursor: pointer;
+  width: 40px; 
+  height: 40px;
+  border-radius: 100%;
+}
+
+.filterBy{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
